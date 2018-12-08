@@ -1,6 +1,6 @@
 repeated_twos = 0
 repeated_threes = 0
-with open('inventory-managment-input.txt', 'r') as file:
+with open('inventory-management-input.txt', 'r') as file:
     for line in file:
         letters = {}
         for c in line:

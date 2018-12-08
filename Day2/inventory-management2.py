@@ -7,7 +7,7 @@ def is_similar(string1, string2):
                 return False
     return True
 
-with open('inventory-managment-input.txt', 'r') as file:
+with open('inventory-management-input.txt', 'r') as file:
     similars = []
     for line in file:
         for sim_list in similars:
